@@ -1,0 +1,39 @@
+:root
+{
+    --tamTitulo: 25px;
+    --corPrincipal: #004C50;
+    --corSecundaria: #333;
+
+}
+
+
+
+body, main
+{
+    padding: 0 !important;
+}
+
+body
+{
+    background: linear-gradient(var(--corPrincipal), var(--corSecundaria));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Teste
+{
+    background-color: blue;
+}
+
+.bg-branco
+{
+    background: rgba(255,255,255,0.3);
+    padding: 10px;
+    text-align: center;
+}
+
+.bg-branco img
+{
+    width: 60px;
+}

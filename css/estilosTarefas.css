@@ -1,0 +1,120 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+:root
+{
+    --tamTitulo: 25px;
+    --corPrincipal: #ccc;
+    --corSecundaria: #fff;
+}
+
+body,
+main
+{
+    padding: 0!important;
+}
+
+body
+{
+    background: linear-gradient( var(--corPrincipal), var( --corSecundaria ) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-branco
+{
+    background: rgba(255, 255, 255, 0.3 );
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.bg-branco img
+{
+    width: 60px;
+}
+
+nav 
+{
+    height: 90.5vh;
+    color: #ddd;
+}
+
+nav a
+{
+    color: #ddd;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a i
+{
+    margin: 10px;
+}
+
+nav a:hover
+{
+    color: #333;
+}
+
+form button
+{
+    font-size: 1.5rem!important;
+    border: 0.01rem solid #333!important;
+    margin: 20px auto;
+}
+
+form button:hover
+{
+    background: #ccc;
+}
+
+/* Regras para celular */
+@media screen and ( max-width: 576px )
+{
+    main > h1
+    {
+        z-index: 1001;
+    }
+
+    nav
+    {
+        position: fixed;
+        top: 0;
+        left: -100vw;
+        height: 100vh;
+        z-index: 1000;
+        width: 100vw !important;
+        transition: left 0.3s ease-in-out;
+    }
+
+    nav p
+    {
+        padding-top: 10vh;
+    }
+
+    .lateral
+    {
+        transform: scale(0.8);
+        height: 2.5rem!important;
+        margin: 0!important;
+    }
+
+    .movimenta
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .relativo
+    {
+        position: relative;
+    }
+
+    .sobe
+    {
+        margin-top: -0.8rem!important;
+    }
+
+}
