@@ -1,7 +1,7 @@
 on: 
   push:
     branches:
-      - branch
+      - main
 
 name: 🚀 Deploy website on push
 jobs:
@@ -17,4 +17,4 @@ jobs:
       with:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_user }}
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.ftp_senha }}
