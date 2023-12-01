@@ -27,7 +27,7 @@
     <script type="text/javascript" src="./js/scriptsTarefas.js" defer ></script>
     
 </head>
-<body style="background: red;">
+<body>
 
     <main class="container-fluid d-flex flex-column " >
 
